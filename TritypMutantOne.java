@@ -57,6 +57,7 @@ class TritypMutantOne
         triOut = 0;
         if (Side1 == Side2)
             // original: triOut = triOut + 1;
+            // mutant:
             triOut = triOut + 2;
         if (Side1 == Side3)
             triOut = triOut + 2;
