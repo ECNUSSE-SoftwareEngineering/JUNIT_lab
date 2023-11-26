@@ -78,7 +78,9 @@ class TritypMutantTwo
 
         if (triOut > 3)
             triOut = 3;
-        // original: else if (triOut == 1 && Side1+Side2 > Side3)
+        // original: 
+        //   else if (triOut == 1 && Side1+Side2 > Side3)
+        // mutant:
         else if (triOut == 1 && Side1+Side2 >= Side3)
             triOut = 2;
         else if (triOut == 2 && Side1+Side3 > Side2)
