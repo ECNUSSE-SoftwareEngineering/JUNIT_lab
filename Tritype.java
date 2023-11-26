@@ -1,6 +1,6 @@
 import java.io.*;
 
-class trityp
+class Tritype
 {
     private static String[] triTypes = { "", // Ignore 0.
             "scalene", "isosceles", "equilateral",
