@@ -1,6 +1,6 @@
 import java.io.*;
 
-class TritypMutantOne
+class TritypeMutantOne
 {
     private static String[] triTypes = { "", // Ignore 0.
             "scalene", "isosceles", "equilateral",
@@ -56,7 +56,8 @@ class TritypMutantOne
 
         triOut = 0;
         if (Side1 == Side2)
-            // original: triOut = triOut + 1;
+            // original: 
+            //  triOut = triOut + 1;
             // mutant:
             triOut = triOut + 2;
         if (Side1 == Side3)

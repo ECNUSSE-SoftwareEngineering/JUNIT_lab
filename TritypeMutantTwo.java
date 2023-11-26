@@ -1,6 +1,6 @@
 import java.io.*;
 
-class TritypMutantTwo
+class TritypeMutantTwo
 {
     private static String[] triTypes = { "", // Ignore 0.
             "scalene", "isosceles", "equilateral",
